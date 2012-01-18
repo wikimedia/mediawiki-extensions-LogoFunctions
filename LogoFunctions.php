@@ -27,9 +27,9 @@ $dir = dirname( __FILE__ ) . '/';
 
 // internationalization
 $wgExtensionMessagesFiles['LogoFunctions'] = $dir . 'LogoFunctions.i18n.php';
+$wgExtensionMessagesFiles['LogoFunctionsMagic'] = $dir . 'LogoFunctions.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'efLogoFunctions_Setup';
-$wgHooks['LanguageGetMagic'][] = 'efLogoFunctions_Magic';
  
 function efLogoFunctions_Setup( &$parser ) {
 	$parser->setFunctionHook( 'setlogo', 'efSetLogo_Render' );
@@ -37,15 +37,6 @@ function efLogoFunctions_Setup( &$parser ) {
 	return true;
 }
 
-/**
- * @todo: i18n the magic word
-*/
-function efLogoFunctions_Magic( &$magicWords, $langCode ) {
-	$magicWords['setlogo'] = array( 0, 'setlogo' );
-	$magicWords['getlogo'] = array( 0, 'getlogo' );
-	return true;
-}
- 
 function efSetLogo_Render( $parser, $logo = '' ) {
 	global $wgLogo;
 	$imageobj = wfFindFile( $logo );
