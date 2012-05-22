@@ -181,6 +181,7 @@ $messages['id'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'logofunctions-desc' => 'Aggiungere una funzione parser per il logo del wiki',
 	'logofunctions-filenotexist' => 'Errore: [[File:$1]] non esiste',
 );
 
