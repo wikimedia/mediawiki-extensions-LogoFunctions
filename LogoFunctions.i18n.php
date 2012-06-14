@@ -29,7 +29,7 @@ $messages['af'] = array(
 	'logofunctions-filenotexist' => 'Fout: [[File:$1]] bestaan nie',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -54,7 +54,7 @@ $messages['bn'] = array(
 	'logofunctions-filenotexist' => 'ত্রুটি: [[File:$1]] নামে কোনো ফাইল নেই',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Gwendal
  * @author Y-M D
@@ -64,7 +64,7 @@ $messages['br'] = array(
 	'logofunctions-filenotexist' => "Fazi : N'eus ket eus [[File:$1]]",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -88,7 +88,7 @@ $messages['dsb'] = array(
 	'logofunctions-filenotexist' => 'Zmólka: [[File:$1]] njeeksistěrujo',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  */
 $messages['es'] = array(
@@ -96,7 +96,7 @@ $messages['es'] = array(
 	'logofunctions-filenotexist' => 'Error: [[File:$1]] no existe',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -104,7 +104,7 @@ $messages['eu'] = array(
 	'logofunctions-filenotexist' => 'Errorea: [[File:$1]] ez da existitzen',
 );
 
-/** French (Français)
+/** French (français)
  * @author Jean-Frédéric
  * @author Od1n
  * @author Peter17
@@ -114,7 +114,7 @@ $messages['fr'] = array(
 	'logofunctions-filenotexist' => 'Erreur : [[File:$1]] n’existe pas',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -146,7 +146,7 @@ $messages['he'] = array(
 	'logofunctions-filenotexist' => 'שגיאה: [[File:$1]] אינו קיים',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Herr Mlinka
  */
 $messages['hr'] = array(
@@ -161,7 +161,7 @@ $messages['hsb'] = array(
 	'logofunctions-filenotexist' => 'Zmylk: [[File:$1]] njeeksistuje',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -177,7 +177,7 @@ $messages['id'] = array(
 	'logofunctions-filenotexist' => 'Kesalahan: [[File:$1]] tidak ada',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -226,14 +226,14 @@ $messages['lb'] = array(
 	'logofunctions-filenotexist' => 'Feeler: [[File:$1]] gëtt et net',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Xil
  */
 $messages['lv'] = array(
 	'logofunctions-filenotexist' => 'Kļūda: [[File:$1]] neeksistē',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -265,7 +265,7 @@ $messages['nl'] = array(
 	'logofunctions-filenotexist' => 'Fout: [[File:$1]] bestaat niet',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -282,7 +282,7 @@ $messages['pms'] = array(
 	'logofunctions-filenotexist' => 'Eror: [[File:$1]] a esist pa',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -290,7 +290,7 @@ $messages['pt'] = array(
 	'logofunctions-filenotexist' => 'Erro: o ficheiro [[File:$1]] não existe',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -298,7 +298,7 @@ $messages['pt-br'] = array(
 	'logofunctions-filenotexist' => 'Erro: o arquivo [[File:$1]] não existe',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -306,7 +306,7 @@ $messages['roa-tara'] = array(
 	'logofunctions-filenotexist' => "Errore: [[File:$1]] non g'esiste.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -314,7 +314,7 @@ $messages['ru'] = array(
 	'logofunctions-filenotexist' => 'Ошибка. [[File:$1]] не существует.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -345,12 +345,12 @@ $messages['vi'] = array(
 	'logofunctions-filenotexist' => 'Lỗi: [[File:$1]] không tồn tại',
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $messages['zh-hans'] = array(
 	'logofunctions-filenotexist' => '错误：[[File:$1]] 不存在',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
