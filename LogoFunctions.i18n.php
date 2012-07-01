@@ -37,7 +37,7 @@ $messages['ast'] = array(
 	'logofunctions-filenotexist' => 'Error: el [[File:$1|ficheru "$1"]] nun esiste',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -80,7 +80,7 @@ $messages['de'] = array(
 	'logofunctions-filenotexist' => 'Fehler: [[File:$1]] existiert nicht',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -122,7 +122,7 @@ $messages['frp'] = array(
 	'logofunctions-filenotexist' => 'Èrror : [[File:$1]] ègziste pas',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -153,7 +153,7 @@ $messages['hr'] = array(
 	'logofunctions-filenotexist' => 'Greška: [[File:$1]] ne postoji',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
