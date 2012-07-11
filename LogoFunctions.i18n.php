@@ -249,7 +249,7 @@ $messages['ms'] = array(
 	'logofunctions-filenotexist' => 'Ralat: [[File:$1]] tidak wujud',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
