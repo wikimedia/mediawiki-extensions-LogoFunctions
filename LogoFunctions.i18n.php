@@ -322,6 +322,13 @@ $messages['sl'] = array(
 	'logofunctions-filenotexist' => 'Napaka: [[File:$1]] ne obstaja',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'logofunctions-filenotexist' => 'Fel: [[File:$1]] finns inte',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
