@@ -203,10 +203,11 @@ $messages['ka'] = array(
 /** Korean (한국어)
  * @author Devunt
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'logofunctions-desc' => '위키의 로고에 관한 파서 훅들을 추가합니다.',
-	'logofunctions-filenotexist' => '오류: [[File:$1]]이 존재하지 않습니다',
+	'logofunctions-filenotexist' => '오류: [[File:$1]] 파일이 존재하지 않습니다',
 );
 
 /** Colognian (Ripoarisch)
