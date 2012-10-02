@@ -37,7 +37,7 @@ $messages['ast'] = array(
 	'logofunctions-filenotexist' => 'Error: el [[File:$1|ficheru "$1"]] nun esiste',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -250,7 +250,7 @@ $messages['ms'] = array(
 	'logofunctions-filenotexist' => 'Ralat: [[File:$1]] tidak wujud',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -353,12 +353,12 @@ $messages['vi'] = array(
 	'logofunctions-filenotexist' => 'Lỗi: [[File:$1]] không tồn tại',
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $messages['zh-hans'] = array(
 	'logofunctions-filenotexist' => '错误：[[File:$1]] 不存在',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
