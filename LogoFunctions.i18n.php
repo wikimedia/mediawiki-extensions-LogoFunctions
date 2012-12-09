@@ -13,7 +13,7 @@
  */
 
 $messages = array();
- 
+
 /** English
  */
 $messages['en'] = array(
@@ -345,6 +345,13 @@ $messages['tl'] = array(
 	'logofunctions-filenotexist' => 'Kamalian: Hindi umiiral ang [[File:$1]]',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'logofunctions-filenotexist' => 'Hata: [[File:$1]] mevcut değil',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -364,4 +371,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'logofunctions-filenotexist' => '錯誤：[[File:$1]] 不存在',
 );
-
