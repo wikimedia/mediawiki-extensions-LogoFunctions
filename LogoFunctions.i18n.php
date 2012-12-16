@@ -21,6 +21,13 @@ $messages['en'] = array(
 	'logofunctions-filenotexist' => 'Error: [[File:$1]] does not exist',
 );
 
+/** Message documentation (Message documentation)
+ * @author Shirayuki
+ */
+$messages['qqq'] = array(
+	'logofunctions-desc' => '{{desc|name=Logo Functions|url=http://www.mediawiki.org/wiki/Extension:LogoFunctions}}',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
