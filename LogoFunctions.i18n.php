@@ -306,6 +306,13 @@ $messages['pt-br'] = array(
 	'logofunctions-filenotexist' => 'Erro: o arquivo [[File:$1]] não existe',
 );
 
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'logofunctions-filenotexist' => 'Eroare: [[File:$1]] nu există',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
