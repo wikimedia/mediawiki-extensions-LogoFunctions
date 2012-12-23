@@ -329,6 +329,13 @@ $messages['ru'] = array(
 	'logofunctions-filenotexist' => 'Ошибка. [[File:$1]] не существует.',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'logofunctions-filenotexist' => 'දෝෂය: [[File:$1]] නොපවතියි',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  */
@@ -364,6 +371,14 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'logofunctions-filenotexist' => 'Hata: [[File:$1]] mevcut değil',
+);
+
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'logofunctions-desc' => 'Додає функцію парсеру для роботи з лого вікі',
+	'logofunctions-filenotexist' => 'Помилка: [[File:$1]] не існує',
 );
 
 /** Vietnamese (Tiếng Việt)
