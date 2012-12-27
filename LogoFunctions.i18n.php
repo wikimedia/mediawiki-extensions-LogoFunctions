@@ -111,6 +111,13 @@ $messages['eu'] = array(
 	'logofunctions-filenotexist' => 'Errorea: [[File:$1]] ez da existitzen',
 );
 
+/** Finnish (suomi)
+ * @author VezonThunder
+ */
+$messages['fi'] = array(
+	'logofunctions-filenotexist' => 'Virhe: [[File:$1]] ei ole olemassa',
+);
+
 /** French (français)
  * @author Jean-Frédéric
  * @author Od1n
@@ -166,6 +173,13 @@ $messages['hr'] = array(
 $messages['hsb'] = array(
 	'logofunctions-desc' => 'Parserowu funkciju wikiloga přidać',
 	'logofunctions-filenotexist' => 'Zmylk: [[File:$1]] njeeksistuje',
+);
+
+/** Hungarian (magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'logofunctions-filenotexist' => 'Hiba: [[File:$1]] nem létezik',
 );
 
 /** Interlingua (interlingua)
