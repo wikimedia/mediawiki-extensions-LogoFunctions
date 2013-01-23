@@ -403,8 +403,11 @@ $messages['vi'] = array(
 	'logofunctions-filenotexist' => 'Lỗi: [[File:$1]] không tồn tại',
 );
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
 $messages['zh-hans'] = array(
+	'logofunctions-desc' => '添加解析器函数，有关wiki的标志',
 	'logofunctions-filenotexist' => '错误：[[File:$1]] 不存在',
 );
 
