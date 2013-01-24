@@ -207,11 +207,12 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'logofunctions-desc' => 'ウィキのロゴに関するパーサー関数を追加する',
-	'logofunctions-filenotexist' => 'エラー：[[File:$1]]は存在しません',
+	'logofunctions-filenotexist' => 'エラー: [[File:$1]] は存在しません',
 );
 
 /** Georgian (ქართული)
