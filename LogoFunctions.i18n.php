@@ -32,7 +32,7 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
-	'logofunctions-desc' => "Maak 'n ontleder-funksie beskikbaar om die logo van die wiki te stel",
+	'logofunctions-desc' => "Maak 'n ontleder-funksie beskikbaar om die logo van die wiki te stel", # Fuzzy
 	'logofunctions-filenotexist' => 'Fout: [[File:$1]] bestaan nie',
 );
 
