@@ -26,6 +26,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'logofunctions-desc' => '{{desc|name=Logo Functions|url=http://www.mediawiki.org/wiki/Extension:LogoFunctions}}',
+	'logofunctions-filenotexist' => 'Used as error message. Parameters:
+* $1 - filename of the logo',
 );
 
 /** Afrikaans (Afrikaans)
