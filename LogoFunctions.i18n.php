@@ -274,6 +274,13 @@ $messages['ms'] = array(
 	'logofunctions-filenotexist' => 'Ralat: [[File:$1]] tidak wujud',
 );
 
+/** Neapolitan (Nnapulitano)
+ * @author Chelin
+ */
+$messages['nap'] = array(
+	'logofunctions-filenotexist' => 'Errore: [[File:$1]] nun esiste',
+);
+
 /** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
