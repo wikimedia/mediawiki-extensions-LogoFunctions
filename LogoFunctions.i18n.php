@@ -281,7 +281,7 @@ $messages['nap'] = array(
 	'logofunctions-filenotexist' => 'Errore: [[File:$1]] nun esiste',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
