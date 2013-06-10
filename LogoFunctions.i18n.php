@@ -422,8 +422,10 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'logofunctions-desc' => '添加維基標識的解析器函數',
 	'logofunctions-filenotexist' => '錯誤：[[File:$1]] 不存在',
 );
