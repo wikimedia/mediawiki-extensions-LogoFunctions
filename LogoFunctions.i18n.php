@@ -297,6 +297,14 @@ $messages['nl'] = array(
 	'logofunctions-filenotexist' => 'Fout: [[File:$1]] bestaat niet',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'logofunctions-desc' => 'Apond una foncion al parser per definir lo lògo del wiki',
+	'logofunctions-filenotexist' => 'Error : [[File:$1]] existís pas',
+);
+
 /** Polish (polski)
  * @author Sp5uhe
  */
