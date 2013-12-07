@@ -274,7 +274,7 @@ $messages['ms'] = array(
 	'logofunctions-filenotexist' => 'Ralat: [[File:$1]] tidak wujud',
 );
 
-/** Neapolitan (Nnapulitano)
+/** Neapolitan (Napulitano)
  * @author Chelin
  */
 $messages['nap'] = array(
