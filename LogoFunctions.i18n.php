@@ -113,6 +113,14 @@ $messages['eu'] = array(
 	'logofunctions-filenotexist' => 'Errorea: [[File:$1]] ez da existitzen',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'logofunctions-desc' => 'اضافه کردن تابع تجزیه کننده دربارهٔ آرم ویکی',
+	'logofunctions-filenotexist' => 'خطا: [[پوشهٔ:$1]] وجود ندارد', # Fuzzy
+);
+
 /** Finnish (suomi)
  * @author VezonThunder
  */
