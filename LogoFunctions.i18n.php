@@ -118,7 +118,7 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'logofunctions-desc' => 'اضافه کردن تابع تجزیه کننده دربارهٔ آرم ویکی',
-	'logofunctions-filenotexist' => 'خطا: [[پوشهٔ:$1]] وجود ندارد', # Fuzzy
+	'logofunctions-filenotexist' => 'خطا: [[File:$1]] وجود ندارد',
 );
 
 /** Finnish (suomi)
