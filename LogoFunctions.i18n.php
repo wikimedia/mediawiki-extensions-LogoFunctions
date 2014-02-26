@@ -270,7 +270,7 @@ $messages['lv'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'logofunctions-desc' => 'Додава парсерска функција за логото на викито',
+	'logofunctions-desc' => 'Додава расчленувачка функција за логото на викито',
 	'logofunctions-filenotexist' => 'Грешка: [[File:$1]] не постои',
 );
 
