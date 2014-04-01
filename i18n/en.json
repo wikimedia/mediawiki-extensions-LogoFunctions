@@ -1,0 +1,7 @@
+{
+    "@metadata": {
+        "authors": []
+    },
+    "logofunctions-desc": "Add parser function about wiki's logo",
+    "logofunctions-filenotexist": "Error: [[File:$1]] does not exist"
+}

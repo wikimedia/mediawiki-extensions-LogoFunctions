@@ -11,26 +11,27 @@
  * @copyright Copyright © 2010 Devunt (Bae June Hyeon).
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
- 
+
 if ( !defined( 'MEDIAWIKI' ) ) die('define error!');
- 
+
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'path'            => __FILE__,
 	'name'           => 'LogoFunctions',
 	'author'         => 'Devunt (Bae June Hyeon)',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogoFunctions',
 	'descriptionmsg' => 'logofunctions-desc',
-	'version'        => '0.9.1',
+	'version'        => '0.10.0',
 );
 
 $dir = dirname( __FILE__ ) . '/';
 
 // internationalization
+$wgMessagesDirs['LogoFunctions'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LogoFunctions'] = $dir . 'LogoFunctions.i18n.php';
 $wgExtensionMessagesFiles['LogoFunctionsMagic'] = $dir . 'LogoFunctions.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'efLogoFunctions_Setup';
- 
+
 function efLogoFunctions_Setup( &$parser ) {
 	$parser->setFunctionHook( 'setlogo', 'efSetLogo_Render' );
 	$parser->setFunctionHook( 'getlogo', 'efGetLogo_Render' );
@@ -41,7 +42,7 @@ function efSetLogo_Render( $parser, $logo = '' ) {
 	global $wgLogo;
 	$imageobj = wfFindFile( $logo );
 	if ( $imageobj == null ) {
-		return Html::element( 'strong', array( 'class' => 'error' ), 
+		return Html::element( 'strong', array( 'class' => 'error' ),
 			wfMsgForContent( 'logofunctions-filenotexist', htmlspecialchars( $logo ) )
 		);
 	}
