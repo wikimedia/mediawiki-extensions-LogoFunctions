@@ -1,8 +1,10 @@
 {
     "@metadata": {
         "authors": [
-            "WikiPhoenix"
+            "WikiPhoenix",
+            "Ainali"
         ]
     },
+    "logofunctions-desc": "Lägg till parserfunktion för wikins logotyp",
     "logofunctions-filenotexist": "Fel: [[File:$1]] finns inte"
 }
