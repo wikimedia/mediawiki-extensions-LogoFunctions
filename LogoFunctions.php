@@ -20,7 +20,7 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 	'author'         => 'Devunt (Bae June Hyeon)',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogoFunctions',
 	'descriptionmsg' => 'logofunctions-desc',
-	'version'        => '0.10.0',
+	'version'        => '0.10.1',
 );
 
 $dir = dirname( __FILE__ ) . '/';
@@ -43,7 +43,7 @@ function efSetLogo_Render( $parser, $logo = '' ) {
 	$imageobj = wfFindFile( $logo );
 	if ( $imageobj == null ) {
 		return Html::element( 'strong', array( 'class' => 'error' ),
-			wfMsgForContent( 'logofunctions-filenotexist', htmlspecialchars( $logo ) )
+			wfMessage( 'logofunctions-filenotexist', $logo )->inContentLanguage()->text()
 		);
 	}
 	$thumb_arr = array(
