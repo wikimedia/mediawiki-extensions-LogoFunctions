@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Dodaje parsersku funkciju u vezi wiki amblema",
-    "logofunctions-filenotexist": "Greška: [[File:$1]] ne postoji"
+    "logofunctions-filenotexist": "Greška: [[:File:$1]] ne postoji"
 }

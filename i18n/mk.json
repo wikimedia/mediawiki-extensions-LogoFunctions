@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Додава расчленувачка функција за логото на викито",
-    "logofunctions-filenotexist": "Грешка: [[File:$1]] не постои"
+    "logofunctions-filenotexist": "Грешка: [[:File:$1]] не постои"
 }

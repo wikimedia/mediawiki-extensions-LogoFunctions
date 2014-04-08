@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Legg til tolkefunksjon om wikiens logo",
-    "logofunctions-filenotexist": "Feil: [[File:$1]] finnes ikke"
+    "logofunctions-filenotexist": "Feil: [[:File:$1]] finnes ikke"
 }

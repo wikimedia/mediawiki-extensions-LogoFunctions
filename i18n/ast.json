@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Amestar una función d'analís pal logo de la wiki",
-    "logofunctions-filenotexist": "Error: el [[File:$1|ficheru \"$1\"]] nun esiste"
+    "logofunctions-filenotexist": "Error: el [[:File:$1|ficheru \"$1\"]] nun esiste"
 }

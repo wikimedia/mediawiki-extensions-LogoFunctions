@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Dodaje funkcję parsera umożliwiającą ustawienie logo dla wiki",
-    "logofunctions-filenotexist": "Błąd – [[File:$1]] nie istnieje"
+    "logofunctions-filenotexist": "Błąd – [[:File:$1]] nie istnieje"
 }

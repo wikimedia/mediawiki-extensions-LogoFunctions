@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Doda funkcijo razčlenjevalnika o logotipu wikija",
-    "logofunctions-filenotexist": "Napaka: [[File:$1]] ne obstaja"
+    "logofunctions-filenotexist": "Napaka: [[:File:$1]] ne obstaja"
 }

@@ -5,5 +5,5 @@
         ]
     },
     "logofunctions-desc": "Agregar función analizadora sobre el logo del wiki",
-    "logofunctions-filenotexist": "Error: [[File:$1]] no existe"
+    "logofunctions-filenotexist": "Error: [[:File:$1]] no existe"
 }

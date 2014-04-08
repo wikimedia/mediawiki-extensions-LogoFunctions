@@ -6,5 +6,5 @@
         ]
     },
     "logofunctions-desc": "添加維基標識的解析器函數",
-    "logofunctions-filenotexist": "錯誤：[[File:$1]] 不存在"
+    "logofunctions-filenotexist": "錯誤：[[:File:$1]] 不存在"
 }

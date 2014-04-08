@@ -7,5 +7,5 @@
         ]
     },
     "logofunctions-desc": "Ajoute une fonction au parseur pour définir le logo du wiki",
-    "logofunctions-filenotexist": "Erreur : [[File:$1]] n’existe pas"
+    "logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas"
 }

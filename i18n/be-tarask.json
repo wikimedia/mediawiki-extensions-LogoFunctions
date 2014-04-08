@@ -6,5 +6,5 @@
         ]
     },
     "logofunctions-desc": "Дадае функцыю парсэра для маніпуляцый зь лягатыпам вікі",
-    "logofunctions-filenotexist": "Памылка: [[File:$1]] не існуе"
+    "logofunctions-filenotexist": "Памылка: [[:File:$1]] не існуе"
 }
