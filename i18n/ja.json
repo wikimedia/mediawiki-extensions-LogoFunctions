@@ -6,5 +6,5 @@
         ]
     },
     "logofunctions-desc": "ウィキのロゴに関するパーサー関数を追加する",
-    "logofunctions-filenotexist": "エラー: [[:File:$1]] は存在しません"
+    "logofunctions-filenotexist": "エラー: [[:File:$1]] は存在しません。"
 }
