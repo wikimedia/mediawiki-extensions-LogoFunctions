@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dj"
-        ]
-    },
-    "logofunctions-filenotexist": "Hiba: [[:File:$1]] nem létezik"
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"logofunctions-filenotexist": "Hiba: [[:File:$1]] nem létezik"
 }

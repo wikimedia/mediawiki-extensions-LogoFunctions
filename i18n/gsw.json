@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Als-Holder"
-        ]
-    },
-    "logofunctions-desc": "Parserfunktion yyfiege zum Wiki-Logo",
-    "logofunctions-filenotexist": "Fähler: [[:File:$1]] git s nit"
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"logofunctions-desc": "Parserfunktion yyfiege zum Wiki-Logo",
+	"logofunctions-filenotexist": "Fähler: [[:File:$1]] git s nit"
 }

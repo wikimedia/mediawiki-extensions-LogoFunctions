@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Milicevic01"
-        ]
-    },
-    "logofunctions-filenotexist": "Грешка: [[:File:$1]] не постоји."
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"logofunctions-filenotexist": "Грешка: [[:File:$1]] не постоји."
 }

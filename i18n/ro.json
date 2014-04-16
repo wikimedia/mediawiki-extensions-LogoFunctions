@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Firilacroco"
-        ]
-    },
-    "logofunctions-filenotexist": "Eroare: [[:File:$1]] nu există"
+	"@metadata": {
+		"authors": [
+			"Firilacroco"
+		]
+	},
+	"logofunctions-filenotexist": "Eroare: [[:File:$1]] nu există"
 }

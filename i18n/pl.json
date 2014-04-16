@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sp5uhe",
-            "Chrumps"
-        ]
-    },
-    "logofunctions-desc": "Dodaje funkcję parsera umożliwiającą ustawienie logo dla wiki",
-    "logofunctions-filenotexist": "Błąd: [[:File:$1]] nie istnieje."
+	"@metadata": {
+		"authors": [
+			"Sp5uhe",
+			"Chrumps"
+		]
+	},
+	"logofunctions-desc": "Dodaje funkcję parsera umożliwiającą ustawienie logo dla wiki",
+	"logofunctions-filenotexist": "Błąd: [[:File:$1]] nie istnieje."
 }

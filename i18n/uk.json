@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Base"
-        ]
-    },
-    "logofunctions-desc": "Додає функцію парсеру для роботи з лого вікі",
-    "logofunctions-filenotexist": "Помилка: [[:File:$1]] не існує"
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"logofunctions-desc": "Додає функцію парсеру для роботи з лого вікі",
+	"logofunctions-filenotexist": "Помилка: [[:File:$1]] не існує"
 }

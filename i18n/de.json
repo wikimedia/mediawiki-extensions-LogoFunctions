@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln"
-        ]
-    },
-    "logofunctions-desc": "Fügt eine Parserfunktion bezüglich des Wikis Logo hinzu",
-    "logofunctions-filenotexist": "Fehler: [[:File:$1]] existiert nicht"
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"logofunctions-desc": "Fügt eine Parserfunktion bezüglich des Wikis Logo hinzu",
+	"logofunctions-filenotexist": "Fehler: [[:File:$1]] existiert nicht"
 }
