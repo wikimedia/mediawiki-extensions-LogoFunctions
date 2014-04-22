@@ -5,5 +5,5 @@
 		]
 	},
 	"logofunctions-desc": "Engadir unha función analítica para establecer o logo do wiki",
-	"logofunctions-filenotexist": "Erro: non existe o [[:File:$1|ficheiro \"$1\"]]"
+	"logofunctions-filenotexist": "Erro: Non existe o [[:File:$1|ficheiro \"$1\"]]."
 }
