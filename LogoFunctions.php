@@ -12,12 +12,13 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) die('define error!');
+if ( !defined( 'MEDIAWIKI' ) )
+	die( 'This file is a MediaWiki extension, it is not a vaild entry point' );
 
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'path'            => __FILE__,
 	'name'           => 'LogoFunctions',
-	'author'         => 'Devunt (Bae June Hyeon)',
+	'author'         => 'JuneHyeon Bae (devunt)',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogoFunctions',
 	'descriptionmsg' => 'logofunctions-desc',
 	'version'        => '0.10.1',
