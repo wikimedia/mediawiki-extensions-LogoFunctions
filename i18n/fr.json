@@ -3,9 +3,10 @@
 		"authors": [
 			"Jean-Frédéric",
 			"Od1n",
-			"Peter17"
+			"Peter17",
+			"Urhixidur"
 		]
 	},
-	"logofunctions-desc": "Ajoute une fonction au parseur pour définir le logo du wiki",
+	"logofunctions-desc": "Ajoute une fonction à l’analyseur syntaxique pour définir le logo du wiki",
 	"logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas"
 }
