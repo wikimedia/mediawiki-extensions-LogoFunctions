@@ -2,37 +2,42 @@
 /**
  * LogoFunctions
  *
- * Add parser function about wiki's logo
+ * Adds parser functions relating to the wiki's logo
  *
- * @link http://www.mediawiki.org/wiki/Extension:LogoFunctions
+ * @link https://www.mediawiki.org/wiki/Extension:LogoFunctions
  *
  * @author Devunt <devunt@devunt.kr>
- * @authorlink http://www.mediawiki.org/wiki/User:Devunt
+ * @authorlink https://www.mediawiki.org/wiki/User:Devunt
  * @copyright Copyright © 2010 Devunt (Bae June Hyeon).
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
 if ( !defined( 'MEDIAWIKI' ) )
-	die( 'This file is a MediaWiki extension, it is not a vaild entry point' );
+	die( 'This file is a MediaWiki extension and not a valid entry point.' );
 
+// Display extension properties on MediaWiki.
 $wgExtensionCredits[ 'parserhook' ][] = array(
-	'path'            => __FILE__,
-	'name'           => 'LogoFunctions',
-	'author'         => 'JuneHyeon Bae (devunt)',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogoFunctions',
+	'path' => __FILE__,
+	'name' => 'LogoFunctions',
+	'author' => array(
+		'JuneHyeon Bae (devunt)',
+		'...'
+	),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:LogoFunctions',
 	'descriptionmsg' => 'logofunctions-desc',
-	'version'        => '0.10.1',
+	'license-name' => 'GPL-2.0+',
+	'version' => '1.0.0'
 );
 
-$dir = dirname( __FILE__ ) . '/';
-
-// internationalization
+// Register extension messages and other localisation.
 $wgMessagesDirs['LogoFunctions'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['LogoFunctions'] = $dir . 'LogoFunctions.i18n.php';
-$wgExtensionMessagesFiles['LogoFunctionsMagic'] = $dir . 'LogoFunctions.i18n.magic.php';
+$wgExtensionMessagesFiles['LogoFunctionsMagic'] = __DIR__ . '/LogoFunctions.i18n.magic.php';
 
+// Register extension hooks.
 $wgHooks['ParserFirstCallInit'][] = 'efLogoFunctions_Setup';
 
+// Do the extension's actions.
 function efLogoFunctions_Setup( &$parser ) {
 	$parser->setFunctionHook( 'setlogo', 'efSetLogo_Render' );
 	$parser->setFunctionHook( 'getlogo', 'efGetLogo_Render' );
