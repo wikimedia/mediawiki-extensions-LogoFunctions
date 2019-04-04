@@ -8,7 +8,8 @@
  *
  * @author Devunt <devunt@devunt.kr>
  * @authorlink https://www.mediawiki.org/wiki/User:Devunt
- * @copyright Copyright © 2010 Devunt (Bae June Hyeon).
+ * @author Ryan Schmidt <skizzerz@gmail.com>
+ * @copyright Copyright © 2010 Devunt (Bae June Hyeon) and Ryan Schmidt.
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
@@ -23,13 +24,18 @@ $wgExtensionCredits['parserhook'][] = [
 	'name' => 'LogoFunctions',
 	'author' => [
 		'JuneHyeon Bae (devunt)',
+		'Ryan Schmidt',
 		'...'
 	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:LogoFunctions',
 	'descriptionmsg' => 'logofunctions-desc',
 	'license-name' => 'GPL-2.0-or-later',
-	'version' => '1.0.0'
+	'version' => '1.1.0'
 ];
+
+// config
+// map of namespace name => logo URL
+$wgNamespaceLogos = [];
 
 // Register extension messages and other localisation.
 $wgMessagesDirs['LogoFunctions'] = __DIR__ . '/i18n';
@@ -39,3 +45,4 @@ $wgAutoloadClasses['LogoFunctions'] = __DIR__ . '/LogoFunctions.class.php';
 
 // Register extension hooks.
 $wgHooks['ParserFirstCallInit'][] = 'LogoFunctions::onParserFirstCallInit';
+$wgHooks['SkinTemplateOutputPageBeforeExec'][] = 'LogoFunctions::onSkinTemplateOutputPageBeforeExec';
