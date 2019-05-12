@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giro720"
+			"Giro720",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"logofunctions-desc": "Adiciona ao analisador sintático uma função relacionada com o logotipo da wiki",
-	"logofunctions-filenotexist": "Erro: o arquivo [[:File:$1]] não existe"
+	"logofunctions-filenotexist": "Erro: o arquivo [[:File:$1]] não existe",
+	"logofunctions-badstamptype": "Erro: os carimbos do logotipo suportam apenas arquivos .png, .jpg ou .gif: $1"
 }

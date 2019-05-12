@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Metalhead64"
 		]
 	},
 	"logofunctions-desc": "Fügt eine Parserfunktion bezüglich des Wikis Logo hinzu",
-	"logofunctions-filenotexist": "Fehler: [[:File:$1]] existiert nicht"
+	"logofunctions-filenotexist": "Fehler: [[:File:$1]] existiert nicht",
+	"logofunctions-badstamptype": "Fehler: Logo stamps unterstützt nur .png-, .jpg- oder .gif-Dateien: $1"
 }

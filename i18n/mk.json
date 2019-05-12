@@ -5,5 +5,6 @@
 		]
 	},
 	"logofunctions-desc": "Додава расчленувачка функција за логото на викито",
-	"logofunctions-filenotexist": "Грешка: [[:File:$1]] не постои"
+	"logofunctions-filenotexist": "Грешка: [[:File:$1]] не постои",
+	"logofunctions-badstamptype": "Грешка: Печатите со логото поддржуваат само податотеки со наставките .png, .jpg и .gif: $1"
 }

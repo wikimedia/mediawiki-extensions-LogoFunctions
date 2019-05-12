@@ -4,9 +4,11 @@
 			"Jean-Frédéric",
 			"Od1n",
 			"Peter17",
-			"Urhixidur"
+			"Urhixidur",
+			"Epok"
 		]
 	},
 	"logofunctions-desc": "Ajoute une fonction à l’analyseur syntaxique pour définir le logo du wiki",
-	"logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas"
+	"logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas",
+	"logofunctions-badstamptype": "Erreur : seuls les formats .png, .jpg et .gif sont pris en charge pour le logo : $1"
 }
