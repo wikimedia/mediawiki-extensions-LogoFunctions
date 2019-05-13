@@ -5,5 +5,6 @@
 		]
 	},
 	"logofunctions-desc": "Aggiunge 'a funzione de analizzatore pu loghe de Uicchi",
-	"logofunctions-filenotexist": "Errore: [[:File:$1]] non g'esiste."
+	"logofunctions-filenotexist": "Errore: [[:File:$1]] non g'esiste.",
+	"logofunctions-badstamptype": "Errore: l'immaggine d'u logo vole sulamende file .png, .jpg, o .gif: $1"
 }
