@@ -7,5 +7,6 @@
 		]
 	},
 	"logofunctions-desc": "Дадае функцыю парсэру для маніпуляцыяў зь лягатыпам вікі",
-	"logofunctions-filenotexist": "Памылка: [[:File:$1]] не існуе"
+	"logofunctions-filenotexist": "Памылка: [[:File:$1]] не існуе",
+	"logofunctions-badstamptype": "Памылка: штампы лягатыпаў падтрыліваюць толькі .png, .jpg, ці .gif-файлы: $1"
 }
