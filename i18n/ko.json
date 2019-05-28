@@ -3,9 +3,11 @@
 		"authors": [
 			"Devunt",
 			"Kwj2772",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"logofunctions-desc": "위키의 로고에 대한 파서 함수를 추가합니다",
-	"logofunctions-filenotexist": "오류: [[:File:$1]] 파일이 존재하지 않습니다."
+	"logofunctions-filenotexist": "오류: [[:File:$1]] 파일이 존재하지 않습니다.",
+	"logofunctions-badstamptype": "오류: 로고 스탬프는 .png, .jpg, .gif 파일만 지원합니다: $1"
 }
