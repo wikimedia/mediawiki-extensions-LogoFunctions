@@ -7,7 +7,6 @@ $magicWords = [];
 
 /** English */
 $magicWords['en'] = [
-	'getlogo' => [ 0, 'getlogo' ],
 	'setlogo' => [ 0, 'setlogo' ],
 	'stamplogo' => [ 0, 'stamplogo' ],
 ];
