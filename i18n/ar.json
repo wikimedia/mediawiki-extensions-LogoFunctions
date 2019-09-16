@@ -5,6 +5,5 @@
 		]
 	},
 	"logofunctions-desc": "يضيف وظيفة محلل حول شعار الويكي",
-	"logofunctions-filenotexist": "خطأ: [[:File:$1]] غير موجود.",
-	"logofunctions-badstamptype": "خطأ: طوابع الشعارات تدعم فقط ملفات .png أو .jpg أو .gif: $1"
+	"logofunctions-filenotexist": "خطأ: [[:File:$1]] غير موجود."
 }

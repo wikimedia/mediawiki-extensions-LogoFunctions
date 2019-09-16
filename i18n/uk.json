@@ -6,6 +6,5 @@
 		]
 	},
 	"logofunctions-desc": "Додає функцію парсеру для роботи з лого вікі",
-	"logofunctions-filenotexist": "Помилка: [[:File:$1]] не існує",
-	"logofunctions-badstamptype": "Помилка: для штампів з логотипом підтримуються лише файли із розширеннями .png, .jpg та .gif: $1"
+	"logofunctions-filenotexist": "Помилка: [[:File:$1]] не існує"
 }

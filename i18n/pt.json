@@ -5,6 +5,5 @@
 		]
 	},
 	"logofunctions-desc": "Adiciona ao analisador sintático uma função relacionada com o logótipo da wiki",
-	"logofunctions-filenotexist": "Erro: o ficheiro [[:File:$1]] não existe",
-	"logofunctions-badstamptype": "Erro: para logótipos só são suportados ficheiros .png, .jpg ou .gif: $1"
+	"logofunctions-filenotexist": "Erro: o ficheiro [[:File:$1]] não existe"
 }
