@@ -128,7 +128,7 @@ class LogoFunctions {
 		$config = RequestContext::getMain()->getConfig();
 
 		$file = wfFindFile( $logo );
-		if ( $file === null ) {
+		if ( !$file ) {
 			// Let whatever called this actually handle it
 			return false;
 		}
