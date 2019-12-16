@@ -6,9 +6,10 @@
 			"Peter17",
 			"Urhixidur",
 			"Epok",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"logofunctions-desc": "Ajoute une fonction à l’analyseur syntaxique pour définir le logo du wiki",
-	"logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas."
+	"logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas."
 }
