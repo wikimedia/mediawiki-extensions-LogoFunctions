@@ -6,7 +6,7 @@ class LogoFunctions {
 	 *
 	 * @param Parser $parser
 	 */
-	public static function onParserFirstCallInit( &$parser ) {
+	public static function onParserFirstCallInit( $parser ) {
 		$parser->setFunctionHook( 'setlogo', [ __CLASS__, 'renderSetLogo' ] );
 		$parser->setFunctionHook( 'stamplogo', [ __CLASS__, 'renderStampLogo' ] );
 	}
@@ -21,7 +21,7 @@ class LogoFunctions {
 		$logos = RequestContext::getMain()->getConfig()->get( 'NamespaceLogos' );
 		$namespace = $skin->getTitle()->getNamespace();
 
-		if ( is_array( $logos ) && in_array( $namespace, array_keys( $logos ) ) ) {
+		if ( is_array( $logos ) && isset( $logos[$namespace] ) ) {
 			$out->addModuleStyles( 'ext.logofunctions' );
 		}
 	}
@@ -77,7 +77,6 @@ class LogoFunctions {
 	 */
 	public static function renderStampLogo( $parser, $logo = '', $width = 0,
 		$placement = 'top', $offsetX = 0, $offsetY = 0 ) {
-
 		$background = self::getBackground( $logo, $width, true );
 		if ( !$background ) {
 			return Html::element( 'strong', [ 'class' => 'error' ],
