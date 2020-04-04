@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class LogoFunctions {
 	/**
 	 * Register our parser functions
@@ -126,7 +128,13 @@ class LogoFunctions {
 	public static function getBackground( $logo = '', $targetWidth = 0, $size = false ) {
 		$config = RequestContext::getMain()->getConfig();
 
-		$file = wfFindFile( $logo );
+		if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+			// MediaWiki 1.34+
+			$file = MediaWikiServices::getInstance()->getRepoGroup()
+				->findFile( $logo );
+		} else {
+			$file = wfFindFile( $logo );
+		}
 		if ( !$file ) {
 			// Let whatever called this actually handle it
 			return false;
