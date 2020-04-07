@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giro720",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Giro720"
 		]
 	},
 	"logofunctions-desc": "Adiciona ao analisador sintático uma função relacionada com o logotipo da wiki",

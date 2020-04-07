@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe",
-			"Chrumps"
+			"Chrumps",
+			"Sp5uhe"
 		]
 	},
 	"logofunctions-desc": "Dodaje funkcję parsera umożliwiającą ustawienie logo dla wiki",

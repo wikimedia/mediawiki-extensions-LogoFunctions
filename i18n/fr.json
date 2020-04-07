@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Epok",
 			"Jean-Frédéric",
 			"Od1n",
 			"Peter17",
+			"Thibaut120094",
 			"Urhixidur",
-			"Epok",
-			"Verdy p",
-			"Thibaut120094"
+			"Verdy p"
 		]
 	},
 	"logofunctions-desc": "Ajoute une fonction à l’analyseur syntaxique pour définir le logo du wiki",
