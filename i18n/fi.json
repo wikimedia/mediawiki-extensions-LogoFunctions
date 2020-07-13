@@ -1,8 +1,6 @@
 {
 	"@metadata": {
-		"authors": [
-			"VezonThunder"
-		]
+		"authors": []
 	},
 	"logofunctions-filenotexist": "Virhe: [[:File:$1]] ei ole olemassa"
 }
