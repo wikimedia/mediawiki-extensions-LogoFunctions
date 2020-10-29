@@ -28,7 +28,7 @@ class LogoFunctionsSkinModule extends ResourceLoaderFileModule {
 		$css = '';
 		foreach ( $logos as $ns => $logo ) {
 			// We'll just assume they're the right sizes to begin with here.
-			$background = LogoFunctions::getBackground( $logo );
+			$background = LogoFunctions::getBackground( null, $logo );
 			if ( !$background ) {
 				// Not found
 				continue;
