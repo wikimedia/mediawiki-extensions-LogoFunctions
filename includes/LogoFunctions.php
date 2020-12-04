@@ -41,7 +41,7 @@ class LogoFunctions {
 	 * @param int $width
 	 */
 	public static function renderSetLogo( $parser, $logo = '', $width = 0 ) {
-		$css = self::getBackground( $logo, $width );
+		$css = self::getBackground( $parser, $logo, $width );
 		if ( !$css ) {
 			return Html::element( 'strong', [ 'class' => 'error' ],
 				wfMessage( 'logofunctions-filenotexist', $logo )->inContentLanguage()->text()
@@ -79,7 +79,7 @@ class LogoFunctions {
 	 */
 	public static function renderStampLogo( $parser, $logo = '', $width = 0,
 		$placement = 'top', $offsetX = 0, $offsetY = 0 ) {
-		$background = self::getBackground( $logo, $width, true );
+		$background = self::getBackground( $parser, $logo, $width, true );
 		if ( !$background ) {
 			return Html::element( 'strong', [ 'class' => 'error' ],
 				wfMessage( 'logofunctions-filenotexist', $logo )->inContentLanguage()->text()
@@ -117,15 +117,18 @@ class LogoFunctions {
 	}
 
 	/**
-	 * Get some css for a background image for some thumbs for the target logo...
+	 * Get some CSS for a background image for some thumbs for the target logo...
 	 *
+	 * @param Parser|null $parser Parser instance or null when called from LogoFunctionsSkinModule;
+	 *   if null, then we obviously cannot track file usage for we need a valid Parser instance to
+	 *   do that
 	 * @param string $logo Name of an uploaded file
 	 * @param int $targetWidth
 	 * @param bool $size Include width/height for actual element?
 	 *
-	 * @return bool|string false on failure, string of css on success
+	 * @return bool|string false on failure, string of CSS on success
 	 */
-	public static function getBackground( $logo = '', $targetWidth = 0, $size = false ) {
+	public static function getBackground( $parser, $logo = '', $targetWidth = 0, $size = false ) {
 		$config = RequestContext::getMain()->getConfig();
 
 		if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
@@ -140,9 +143,20 @@ class LogoFunctions {
 			return false;
 		}
 
+		// Track used images so that they show up as used under "File usage" on their
+		// respective File: pages so that admins don't accidentally end up deleting
+		// "unused" images which are, in fact, used
+		if ( $parser instanceof Parser ) {
+			$parser->getOutput()->addImage(
+				$file->getTitle()->getDBkey(),
+				$file->getTimestamp(),
+				$file->getSha1()
+			);
+		}
+
 		$targetWidth = ( is_numeric( $targetWidth ) && $targetWidth > 0 ) ? $targetWidth : 154;
 
-		// Double it for hidpi support, because honestly fuck it, who cares
+		// Double it for HiDPI support, because honestly fuck it, who cares
 		$thumb = $file->createThumb( $targetWidth * 2 );
 
 		$background = OutputPage::transformResourcePath( $config, $thumb );
