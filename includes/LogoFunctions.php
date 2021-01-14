@@ -39,6 +39,8 @@ class LogoFunctions {
 	 * @param Parser $parser
 	 * @param string $logo Name of an uploaded file
 	 * @param int $width
+	 *
+	 * @return string|void
 	 */
 	public static function renderSetLogo( $parser, $logo = '', $width = 0 ) {
 		$css = self::getBackground( $parser, $logo, $width );
@@ -76,6 +78,8 @@ class LogoFunctions {
 	 * @param string $placement 'top' or 'bottom', we can have one of each per page
 	 * @param int $offsetX
 	 * @param int $offsetY
+	 *
+	 * @return string|void
 	 */
 	public static function renderStampLogo( $parser, $logo = '', $width = 0,
 		$placement = 'top', $offsetX = 0, $offsetY = 0 ) {
