@@ -41,7 +41,7 @@
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "LogoFunctions::onParserFirstCallInit",
-		"BeforePageDisplay":  "LogoFunctions::onBeforePageDisplay"
+		"BeforePageDisplay": "LogoFunctions::onBeforePageDisplay"
 	},
 	"config": {
 		"NamespaceLogos": {
