@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Emperyan"
+			"Emperyan",
+			"MuratTheTurkish"
 		]
 	},
-	"logofunctions-desc": "Wikinin logosu hakkında bir ayrıştırıcı işlev ekler",
-	"logofunctions-filenotexist": "Hata: [[:File:$1]] mevcut değil"
+	"logofunctions-desc": "Vikinin logosu hakkında bir ayrıştırıcı işlev ekler",
+	"logofunctions-filenotexist": "Hata: [[:File:$1]] mevcut değil."
 }
