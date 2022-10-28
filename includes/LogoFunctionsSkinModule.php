@@ -47,7 +47,11 @@ class LogoFunctionsSkinModule extends ResourceLoaderFileModule {
 
 		// We're currently not defining a module with anything but flat css (skinstyles),
 		// so this is just a string for now
-		$styles['all'] .= $css;
+		if ( isset( $styles['all'] ) && $styles['all'] ) {
+			$styles['all'] .= $css;
+		} else {
+			$styles['all'] = $css;
+		}
 		return $styles;
 	}
 
