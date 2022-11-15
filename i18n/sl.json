@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"logofunctions-desc": "Doda funkcijo razčlenjevalnika o logotipu wikija",
-	"logofunctions-filenotexist": "Napaka: [[:File:$1]] ne obstaja"
+	"logofunctions-desc": "Doda funkcijo razčlenjevalnika o logotipu vikija",
+	"logofunctions-filenotexist": "Napaka: [[:File:$1|Datoteka $1]] ne obstaja"
 }
