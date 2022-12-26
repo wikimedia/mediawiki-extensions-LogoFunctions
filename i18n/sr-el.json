@@ -4,5 +4,6 @@
 			"Milicevic01"
 		]
 	},
-	"logofunctions-filenotexist": "Greška: [[:File:$1]] ne postoji"
+	"logofunctions-desc": "Dodaje funkciju raščlanjivanja logotipa vikija",
+	"logofunctions-filenotexist": "Greška: [[:File:$1]] ne postoji."
 }
