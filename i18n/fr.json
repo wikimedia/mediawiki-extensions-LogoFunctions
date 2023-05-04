@@ -11,5 +11,5 @@
 		]
 	},
 	"logofunctions-desc": "Ajoute une fonction à l’analyseur syntaxique pour définir le logo du wiki",
-	"logofunctions-filenotexist": "Erreur : [[:File:$1]] n’existe pas."
+	"logofunctions-filenotexist": "Erreur : le fichier [[:File:$1|$1]] n’existe pas."
 }
