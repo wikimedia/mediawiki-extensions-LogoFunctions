@@ -25,7 +25,7 @@ class LogoFunctions {
 		$namespace = $skin->getTitle()->getNamespace();
 
 		if ( is_array( $logos ) && isset( $logos[$namespace] ) ) {
-			$out->addModuleStyles( 'ext.logofunctions' );
+			$out->addModuleStyles( [ 'ext.logofunctions' ] );
 		}
 	}
 
@@ -64,7 +64,7 @@ class LogoFunctions {
 
 		// But we do also have an actual module for any common logo override styles,
 		// skin-specific stuff, whatever. We're not *complete* barbarians, here.
-		$output->addModuleStyles( 'ext.logofunctions' );
+		$output->addModuleStyles( [ 'ext.logofunctions' ] );
 	}
 
 	/**
@@ -118,7 +118,7 @@ class LogoFunctions {
 		// Smash it onto the page!
 		$output->addHeadItem( "<style>$cssOuter\n$css</style>", "stamplogo-$placement" );
 		// Common logo override styles, skin-specific stuff, whatever.
-		$output->addModuleStyles( 'ext.logofunctions' );
+		$output->addModuleStyles( [ 'ext.logofunctions' ] );
 	}
 
 	/**
