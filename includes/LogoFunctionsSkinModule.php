@@ -1,4 +1,8 @@
 <?php
+
+use MediaWiki\ResourceLoader\Context;
+use MediaWiki\ResourceLoader\FileModule;
+
 /**
  * ResourceLoader module to replace ResourceLoaderSkinModule output styles
  * for namespaces set in config
@@ -7,14 +11,14 @@
  * will be already using that regardless, and that'd just give us double
  * styles.
  */
-class LogoFunctionsSkinModule extends ResourceLoaderFileModule {
+class LogoFunctionsSkinModule extends FileModule {
 	/**
 	 * Make the styles from the config array
 	 *
-	 * @param ResourceLoaderContext $context
+	 * @param Context $context
 	 * @return array
 	 */
-	public function getStyles( ResourceLoaderContext $context ) {
+	public function getStyles( Context $context ) {
 		$config = $this->getConfig();
 		$logos = $config->get( 'NamespaceLogos' );
 		$styles = parent::getStyles( $context );
@@ -58,10 +62,10 @@ class LogoFunctionsSkinModule extends ResourceLoaderFileModule {
 	/**
 	 * Register the config var with the caching stuff so it properly updates the cache
 	 *
-	 * @param ResourceLoaderContext $context
+	 * @param Context $context
 	 * @return array
 	 */
-	public function getDefinitionSummary( ResourceLoaderContext $context ) {
+	public function getDefinitionSummary( Context $context ) {
 		$summary = parent::getDefinitionSummary( $context );
 		$summary[] = [
 			'LogoFunctionsNamespaceLogos' => md5(
