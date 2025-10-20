@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armin1392"
+			"Armin1392",
+			"LordProfo"
 		]
 	},
-	"logofunctions-desc": "اضافه کردن تابع تجزیه کننده دربارهٔ آرم ویکی",
+	"logofunctions-desc": "یک تابع تجزیه‌کننده در مورد لوگوی ویکی اضافه می‌کند",
 	"logofunctions-filenotexist": "خطا: [[:File:$1]] وجود ندارد"
 }
