@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"logofunctions-desc": "Pridáva funkciu syntaktického analyzátora týkajúcu sa loga wiki",
+	"logofunctions-filenotexist": "Chyba: [[:File:$1]] neexistuje."
+}
